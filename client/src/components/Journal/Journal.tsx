@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Plus, Search, Calendar, ChevronDown, ChevronUp, Edit2, X, BookOpen, TrendingUp, TrendingDown, Filter } from 'lucide-react'
+import { Plus, Search, ChevronDown, ChevronUp, Edit2, X, BookOpen } from 'lucide-react'
 import { positionsApi, journalApi, analyticsApi } from '../../services/api'
 
 interface Position {

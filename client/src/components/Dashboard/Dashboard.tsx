@@ -32,6 +32,7 @@ interface Position {
   strategy_tag: string
   status: string
   pnl: number
+  opened_at: string
 }
 
 export default function Dashboard() {
@@ -88,7 +89,6 @@ export default function Dashboard() {
       // Simplified Greek calculations based on position type
       // In reality, these would come from the API with real Greeks
       const multiplier = pos.quantity < 0 ? -1 : 1
-      const isCall = pos.option_type === 'call'
 
       // Estimate delta based on position type and direction
       if (pos.option_type === 'put') {

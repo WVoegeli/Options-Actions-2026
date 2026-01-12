@@ -26,7 +26,6 @@ export default function NewPositionModal({ isOpen, onClose, onSuccess }: NewPosi
   const [searchResults, setSearchResults] = useState<any[]>([])
   const [selectedStock, setSelectedStock] = useState<any>(null)
   const [stockQuote, setStockQuote] = useState<any>(null)
-  const [loading, setLoading] = useState(false)
   const [submitting, setSubmitting] = useState(false)
   const [error, setError] = useState('')
 

@@ -10,10 +10,6 @@ import {
   PieChart,
   Pie,
   Cell,
-  LineChart,
-  Line,
-  Area,
-  AreaChart,
 } from 'recharts'
 import { TrendingUp, TrendingDown, Target, Award, RefreshCw, Calendar } from 'lucide-react'
 import { analyticsApi, positionsApi } from '../../services/api'

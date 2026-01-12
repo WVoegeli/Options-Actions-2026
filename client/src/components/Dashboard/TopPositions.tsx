@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Clock, X, MoreVertical } from 'lucide-react'
+import { Clock, X } from 'lucide-react'
 import { positionsApi } from '../../services/api'
 
 interface Position {
