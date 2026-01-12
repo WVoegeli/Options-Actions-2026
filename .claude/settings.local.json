@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(curl:*)",
+      "Bash(gh auth status:*)",
+      "Bash(where:*)",
+      "Bash(\"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" auth login --web --git-protocol https)",
+      "Bash(dir:*)",
+      "Bash(findstr:*)"
+    ]
+  }
+}
