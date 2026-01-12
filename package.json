@@ -1,0 +1,17 @@
+{
+  "name": "options-actions-2026",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run dev\"",
+    "build": "cd client && npm run build",
+    "postinstall": "cd client && npm install && cd ../server && npm install"
+  },
+  "dependencies": {
+    "@vercel/postgres": "^0.10.0",
+    "yahoo-finance2": "^3.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
