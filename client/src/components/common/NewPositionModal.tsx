@@ -65,13 +65,10 @@ export default function NewPositionModal({ isOpen, onClose, onSuccess }: NewPosi
 
     const fetchQuote = async () => {
       try {
-        setLoading(true)
         const response = await marketApi.getQuote(selectedStock.symbol)
         setStockQuote(response.data)
       } catch (err) {
         console.error('Quote error:', err)
-      } finally {
-        setLoading(false)
       }
     }
 
